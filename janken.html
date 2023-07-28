@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/janken.css">
+    <title>janken</title>
+</head>
+<body>
+    <header>
+        <h1>じゃんけん</h1>
+    </header>
+    <h2>ルール説明</h2>
+    <p id="explanation">下に表示されたグー・チョキ・パーのボタンから、あなたが出す手を選択してください。選択したボタンをクリックすると、ボタン直下の結果の文字がじゃんけんの結果を出力します。じゃんけんの過程を知りたい場合は、画面上で右クリック、またはFn12キーを押すことでコンソールに出力されたじゃんけんの過程を確認することができます。</p>
+    <main>
+        <div>
+            <h3>あなたの出す手</h3>
+            <button id="gu" type="button" onclick="janken(1)">グー</button>
+            <button id="choki" type="button" onclick="janken(2)">チョキ</button>
+            <button id="pa" type="button" onclick="janken(3)">パー</button>
+        </div>
+
+        <div>
+            <p id="result">結果</p>
+        </div>
+    </main>
+    <p><a href="../Assignment_final/index.html">▴ホームに戻る</a></p>
+
+    <script src="./js/janken.js"></script>
+</body>
+    
+</html>

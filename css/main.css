@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+#top {
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+h2 {
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.site_intro {
+    display:inline-block;
+    border: 8px double;
+    padding: 8px;
+    border-radius: 16px;
+}
+
+.janken_intro {
+    display:inline-block;
+    border: 8px double;
+    padding: 8px;
+    border-radius: 16px;
+}
+
+.omikuji_intro {
+    display:inline-block;
+    border: 8px double;
+    padding: 8px;
+    border-radius: 16px;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    font-size:1.2rem;
+    color: black;
+}

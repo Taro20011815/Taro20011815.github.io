@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+main {
+    text-align: center;
+}
+
+button {
+    font-size: 52px;
+    border-radius: 24px;
+}
+
+#explanation {
+    text-decoration: underline 1px dashed;
+    padding:8px;
+    border: 8px double;
+    padding: 8px;
+    border-radius: 16px;
+}
+
+#gu {
+    background-color: rgb(63, 125, 239);
+}
+
+#gu:hover {
+    font-size:3.5rem;
+}
+
+#choki {
+    background-color: rgb(242, 84, 84);
+}
+
+#choki:hover {
+    font-size:3.5rem;
+}
+
+#pa {
+    background-color: rgb(244, 244, 94);
+}
+
+#pa:hover {
+    font-size:3.5rem;
+}
+
+#result {
+    font-size:40px;
+    font-weight: bold;
+    
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    font-size:1.2rem;
+    color: black;
+}
